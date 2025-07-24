@@ -1,0 +1,22 @@
+[
+    {
+        "id": "hammer",
+        "label": "Grille Hammer",
+        "url": "/tuto/hammer/index.html"
+    },
+    {
+        "id": "tdmFemme",
+        "label": "TDM Femme",
+        "url": "/tuto/tdmFemme/index.html"
+    },
+    {
+        "id": "gTdmHomme",
+        "label": "[G] - TDM Homme",
+        "url": "/tuto/gTdmHomme/index.html"
+    },
+    {
+        "id": "pTdmHomme",
+        "label": "[P] - TDM Homme",
+        "url": "/tuto/pTdmHomme/index.html"
+    }
+]

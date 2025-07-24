@@ -1,21 +1,17 @@
-function ouvrirTuto(type) {
-  let url = "#";
-  switch (type) {
-    case 'index':
-      url = "/tuto";
-      break;
-    case 'zund':
-      url = "/tuto/zund";
-      break;
-    case 'css':
-      url = "https://developer.mozilla.org/fr/docs/Web/CSS";
-      break;
-    case 'js':
-      url = "https://developer.mozilla.org/fr/docs/Web/JavaScript";
-      break;
-    case 'react':
-      url = "https://reactjs.org/";
-      break;
-  }
-  window.location.href = url;
-}
+fetch('/tuto/data/liste-tutos.json')
+  .then(response => response.json())
+  .then(tutos => {
+    const container = document.getElementById('liste-tutos');
+    tutos.forEach(tuto => {
+      const button = document.createElement('button');
+      button.className = 'tuto-button';
+      button.textContent = tuto.label;
+      button.onclick = () => {
+        window.location.href = tuto.url;
+      };
+      container.appendChild(button);
+    });
+  })
+  .catch(error => {
+    console.error('Erreur lors du chargement des tutoriels :', error);
+  });

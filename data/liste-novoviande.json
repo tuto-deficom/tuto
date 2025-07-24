@@ -1,0 +1,12 @@
+[
+    {
+        "id": "plastif",
+        "label": "Plastifieuses",
+        "url": "/tuto/plastif/plastif-index.html"
+    },
+    {
+        "id": "trouteuse",
+        "label": "Trouteuse",
+        "url": "/tuto/trouteuse/index.html"
+    }
+]

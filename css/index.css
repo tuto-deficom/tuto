@@ -18,6 +18,10 @@ main {
   justify-content: center;
 }
 
+h1 {
+  color: white;
+}
+
 .tutos {
   display: flex;
   flex-direction: column;
