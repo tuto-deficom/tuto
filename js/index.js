@@ -1,8 +1,11 @@
 function ouvrirTuto(type) {
   let url = "#";
   switch (type) {
-    case 'html':
-      url = "https://developer.mozilla.org/fr/docs/Web/HTML";
+    case 'index':
+      url = "/tuto";
+      break;
+    case 'zund':
+      url = "/tuto/zund";
       break;
     case 'css':
       url = "https://developer.mozilla.org/fr/docs/Web/CSS";
@@ -14,5 +17,5 @@ function ouvrirTuto(type) {
       url = "https://reactjs.org/";
       break;
   }
-  window.open(url, '_blank');
+  window.location.href = url;
 }

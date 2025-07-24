@@ -4,27 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tutoriels à suivre</title>
-  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="/tuto/css/index.css" />
 </head>
 <body>
   <header>
-    <h1>📚 Tutoriels à suivre</h1>
+    <h1 onclick="ouvrirTuto('index')">Tutoriels Deficom</h1>
   </header>
 
   <main>
     <section class="tutos">
-      <!-- Liste des boutons de tutoriels -->
-      <button class="tuto-button" onclick="ouvrirTuto('html')">Apprendre HTML</button>
-      <button class="tuto-button" onclick="ouvrirTuto('css')">Apprendre CSS</button>
-      <button class="tuto-button" onclick="ouvrirTuto('js')">Apprendre JavaScript</button>
-      <button class="tuto-button" onclick="ouvrirTuto('react')">Apprendre React</button>
+      <button class="tuto-button" onclick="ouvrirTuto('zund')">Tutos Zund</button>
+      <button class="tuto-button" onclick="ouvrirTuto('plastif')">Plastifieuses</button>
+      <button class="tuto-button" onclick="ouvrirTuto('trouteuse')">Trouteuse</button>
+      <button class="tuto-button" onclick="ouvrirTuto('hammer')">Grille Hammer</button>
+      <button class="tuto-button" onclick="ouvrirTuto('tdmFemme')">TDM Femme</button>
+      <button class="tuto-button" onclick="ouvrirTuto('gTdmHomme')">[G] - TDM Homme</button>
+      <button class="tuto-button" onclick="ouvrirTuto('pTdmHomme')">[P] - TDM Homme</button>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Mes Tutos</p>
-  </footer>
-
-  <script src="js/index.js"></script>
+  <script src="/tuto/js/index.js"></script>
 </body>
 </html>
