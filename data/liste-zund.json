@@ -3,5 +3,10 @@
         "id": "demarrage",
         "label": "Démarrage",
         "url": "/tuto/zund/demmarage.html"
+    },
+    {
+        "id": "retour",
+        "label": "Retour",
+        "url": "/tuto/index.html"
     }
 ]

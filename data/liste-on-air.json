@@ -2,21 +2,31 @@
     {
         "id": "hammer",
         "label": "Grille Hammer",
-        "url": "/tuto/hammer/index.html"
+        "url": "/tuto/on-air/hammer.html"
+    },
+    {
+        "id": "technogym",
+        "label": "Technogym",
+        "url": "/tuto/on-air/technogym.html"
     },
     {
         "id": "tdmFemme",
-        "label": "TDM Femme",
-        "url": "/tuto/tdmFemme/index.html"
+        "label": "[F] - TDM",
+        "url": "/tuto/on-air/tdm-femme.html"
     },
     {
         "id": "gTdmHomme",
-        "label": "[G] - TDM Homme",
-        "url": "/tuto/gTdmHomme/index.html"
+        "label": "[H] - Grande TDM",
+        "url": "/tuto/on-air/grande-tdm-homme.html"
     },
     {
         "id": "pTdmHomme",
-        "label": "[P] - TDM Homme",
-        "url": "/tuto/pTdmHomme/index.html"
+        "label": "[H] - Petite TDM",
+        "url": "/tuto/on-air/petite-tdm-homme.html"
+    },
+    {
+        "id": "retour",
+        "label": "Retour",
+        "url": "/tuto/index.html"
     }
 ]

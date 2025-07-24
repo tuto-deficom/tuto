@@ -8,5 +8,10 @@
         "id": "trouteuse",
         "label": "Trouteuse",
         "url": "/tuto/trouteuse/index.html"
+    },
+    {
+        "id": "retour",
+        "label": "Retour",
+        "url": "/tuto/index.html"
     }
 ]
