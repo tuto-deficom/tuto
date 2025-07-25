@@ -2,12 +2,12 @@
     {
         "id": "plastif",
         "label": "Plastifieuses",
-        "url": "/tuto/plastif/plastif-index.html"
+        "url": "/tuto/plastif.html"
     },
     {
-        "id": "trouteuse",
-        "label": "Trouteuse",
-        "url": "/tuto/trouteuse/index.html"
+        "id": "perforatrice",
+        "label": "Perforatrice",
+        "url": "/tuto/perforatrice.html"
     },
     {
         "id": "retour",
