@@ -10,6 +10,13 @@ fetch('/tuto/data/liste-zund.json')
         window.location.href = tuto.url;
       };
       container.appendChild(button);
+      const retourBtn = document.createElement('button');
+      retourBtn.className = 'tuto-button retour-button';
+      retourBtn.textContent = '← Retour à l’accueil';
+      retourBtn.onclick = () => {
+        window.location.href = '/tuto/index.html';
+      };
+      container.appendChild(retourBtn);
     });
   })
   .catch(error => {
