@@ -23,10 +23,5 @@
         "id": "pTdmHomme",
         "label": "[H] - Petite TDM",
         "url": "/tuto/on-air/petite-tdm-homme.html"
-    },
-    {
-        "id": "retour",
-        "label": "Retour",
-        "url": "/tuto/index.html"
     }
 ]

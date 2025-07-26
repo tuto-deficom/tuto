@@ -1,1 +1,51 @@
-(
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Démarrage Zund</title>
+    <link rel="stylesheet" href="/tuto/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 onclick="window.location.href='/tuto/index.html'" style="cursor: pointer;">
+            Démarrage Zund
+        </h1>
+    </header>
+
+    <main>
+        <section id="tuto-container">
+            <div class="etape" style="display: block;">
+                <h2>Étape 1</h2>
+                <p>Allumez la machine Zund en appuyant sur le bouton d'alimentation.</p>
+            </div>
+
+            <div class="etape" style="display: none;">
+                <h2>Étape 2</h2>
+                <p>Attendez que l'écran de démarrage apparaisse et vérifiez l'état initial.</p>
+            </div>
+
+            <div class="etape" style="display: none;">
+                <h2>Étape 3</h2>
+                <p>Lancez le logiciel Zund Cut Center sur l'ordinateur.</p>
+            </div>
+
+            <div class="etape" style="display: none;">
+                <h2>Étape 4</h2>
+                <p>Connectez-vous avec vos identifiants utilisateur.</p>
+            </div>
+        </section>
+
+        <div class="navigation">
+            <button id="prev">← Précédent</button>
+            <button id="retour">Retour à l’accueil</button>
+            <button id="next">Suivant →</button>
+        </div>
+    </main>
+
+    <script src="/tuto/js/tutos.js"></script>
+</body>
+
+</html>

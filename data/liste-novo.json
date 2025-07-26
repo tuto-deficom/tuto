@@ -2,16 +2,11 @@
     {
         "id": "plastifieuse",
         "label": "Plastifieuses",
-        "url": "/tuto/plastifieuse.html"
+        "url": "/tuto/novo/plastifieuse.html"
     },
     {
         "id": "perforatrice",
         "label": "Perforatrice",
-        "url": "/tuto/perforatrice.html"
-    },
-    {
-        "id": "retour",
-        "label": "Retour",
-        "url": "/tuto/index.html"
+        "url": "/tuto/novo/perforatrice.html"
     }
 ]
