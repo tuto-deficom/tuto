@@ -1,12 +1,18 @@
 [
-    {
-        "id": "plastifieuse",
-        "label": "Plastifieuses",
-        "url": "/tuto/novo/plastifieuse.html"
-    },
-    {
-        "id": "perforatrice",
-        "label": "Perforatrice",
-        "url": "/tuto/novo/perforatrice.html"
-    }
+  {
+    "id": "plastifieuse",
+    "label": "Plastifieuses",
+    "url": "/tuto/novo/plastifieuse.html",
+    "type": "simple",
+    "pathEtapes": "/tuto/novo/plastifieuse",
+    "totalSteps": 2
+  },
+  {
+    "id": "perforatrice",
+    "label": "Perforatrice",
+    "url": "/tuto/novo/perforatrice.html",
+    "type": "complexe",
+    "pathEtapes": "/tuto/novo/perforatrice",
+    "totalSteps": 4
+  }
 ]

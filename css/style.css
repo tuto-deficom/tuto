@@ -107,3 +107,16 @@ footer {
 .navigation button:hover:not(:disabled) {
   background-color: rgba(135, 168, 174, 0.25);
 }
+
+#tuto-container {
+  text-align: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.etape {
+  text-align: left; /* si chaque étape est un div avec cette classe */
+  margin: 0;
+  padding: 0;
+}

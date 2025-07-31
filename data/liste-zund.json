@@ -1,7 +1,9 @@
 [
-    {
-        "id": "demarrage",
-        "label": "Démarrage",
-        "url": "/tuto/zund/demarrage.html"
-    }
+  {
+    "id": "demarrage",
+    "label": "Démarrage",
+    "url": "/tuto/zund/demarrage.html",
+    "type": "complexe",
+    "etapes": "/tuto/zund/demarrage"
+  }
 ]
