@@ -108,6 +108,18 @@ footer {
   background-color: rgba(135, 168, 174, 0.25);
 }
 
+.choix-etape button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(135, 168, 174, 0.75);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+}
+
 #tuto-container {
   text-align: left;
   display: block;
