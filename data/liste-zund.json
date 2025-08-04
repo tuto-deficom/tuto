@@ -4,6 +4,7 @@
     "label": "Démarrage",
     "url": "/tuto/zund/demarrage.html",
     "type": "complexe",
-    "etapes": "/tuto/zund/demarrage"
+    "pathEtapes": "/tuto/zund/demarrage",
+    "totalSteps": 3
   }
 ]

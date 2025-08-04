@@ -4,34 +4,39 @@
     "label": "Grille Hammer",
     "url": "/tuto/on-air/hammer.html",
     "type": "complexe",
-    "etapes": "/tuto/on-air/hammer"
+    "pathEtapes": "/tuto/on-air/hammer",
+    "totalSteps": 3
   },
   {
     "id": "technogym",
     "label": "Technogym",
     "url": "/tuto/on-air/technogym.html",
     "type": "complexe",
-    "etapes": "/tuto/on-air/technogym"
+    "pathEtapes": "/tuto/on-air/technogym",
+    "totalSteps": 4
   },
   {
     "id": "tdmFemme",
     "label": "[F] - TDM",
     "url": "/tuto/on-air/tdm-femme.html",
     "type": "complexe",
-    "etapes": "/tuto/on-air/tdm-femme"
+    "pathEtapes": "/tuto/on-air/tdm-femme",
+    "totalSteps": 2
   },
   {
     "id": "gTdmHomme",
     "label": "[H] - Grande TDM",
     "url": "/tuto/on-air/grande-tdm-homme.html",
     "type": "complexe",
-    "etapes": "/tuto/on-air/grande-tdm-homme"
+    "pathEtapes": "/tuto/on-air/grande-tdm-homme",
+    "totalSteps": 3
   },
   {
     "id": "pTdmHomme",
     "label": "[H] - Petite TDM",
     "url": "/tuto/on-air/petite-tdm-homme.html",
     "type": "complexe",
-    "etapes": "/tuto/on-air/petite-tdm-homme"
+    "pathEtapes": "/tuto/on-air/petite-tdm-homme",
+    "totalSteps": 2
   }
 ]
