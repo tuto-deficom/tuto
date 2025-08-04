@@ -14,5 +14,13 @@
     "type": "complexe",
     "pathEtapes": "/tuto/novo/perforatrice",
     "totalSteps": 4
+  },
+  {
+    "id": "A5",
+    "label": "A5",
+    "url": "/tuto/novo/A5.html",
+    "type": "simple",
+    "pathEtapes": "/tuto/novo/A5",
+    "totalSteps": 3
   }
 ]
