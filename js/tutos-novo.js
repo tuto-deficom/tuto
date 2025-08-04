@@ -1,3 +1,39 @@
+(function () {
+  const CODE_ATTENDU = "moncode123"; // 💡 change ce code comme tu veux
+  const COOKIE_NAME = "code_acces_tuto";
+
+  function getCookie(name) {
+    return document.cookie
+      .split('; ')
+      .find(row => row.startsWith(name + '='))
+      ?.split('=')[1];
+  }
+
+  function setCookie(name, value, days) {
+    const d = new Date();
+    d.setTime(d.getTime() + (days*24*60*60*1000));
+    document.cookie = `${name}=${value};expires=${d.toUTCString()};path=/`;
+  }
+
+  // Vérifie si le code a déjà été validé
+  const codeValide = getCookie(COOKIE_NAME);
+  if (codeValide === CODE_ATTENDU) return; // ✅ accès autorisé
+
+  // Sinon, boucle jusqu’à ce que le bon code soit entré
+  let tentative = "";
+  while (tentative !== CODE_ATTENDU) {
+    tentative = prompt("Veuillez entrer le code d'accès pour consulter ce tutoriel :");
+    if (tentative === null) {
+      // L'utilisateur a annulé → on le redirige vers l'accueil
+      window.location.href = "/tuto/index.html";
+      return;
+    }
+  }
+
+  // ✅ Code correct → on stocke le cookie
+  setCookie(COOKIE_NAME, CODE_ATTENDU, 7); // valable 7 jours
+})();
+
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("tuto-container");
   const prevBtn = document.getElementById("prev");
