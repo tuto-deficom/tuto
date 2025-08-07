@@ -1,5 +1,5 @@
 (function () {
-  const CODE_ATTENDU = "moncode123"; // 💡 change ce code comme tu veux
+  const CODE_ATTENDU = "moncode12"; // 💡 change ce code comme tu veux
   const COOKIE_NAME = "code_acces_tuto";
 
   function getCookie(name) {
