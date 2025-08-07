@@ -19,7 +19,7 @@
     "id": "tdmFemme",
     "label": "[f] - TDM",
     "url": "/tuto/on-air/tdm-femme.html",
-    "type": "complexe",
+    "type": "simple",
     "pathEtapes": "/tuto/on-air/tdm-femme",
     "totalSteps": 2
   },
