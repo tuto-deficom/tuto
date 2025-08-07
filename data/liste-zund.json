@@ -1,10 +1,18 @@
 [
-  {
-    "id": "demarrage",
-    "label": "Démarrage",
-    "url": "/tuto/zund/demarrage.html",
-    "type": "complexe",
-    "pathEtapes": "/tuto/zund/demarrage",
-    "totalSteps": 3
-  }
+    {
+        "id": "demarrage",
+        "label": "Démarrage",
+        "url": "/tuto/zund/demarrage.html",
+        "type": "complexe",
+        "pathEtapes": "/tuto/zund/demarrage",
+        "totalSteps": 3
+    },
+    {
+        "id": "changement-outils",
+        "label": "Changement d'outils",
+        "url": "/tuto/zund/changement-outils.html",
+        "type": "complexe",
+        "pathEtapes": "/tuto/zund/changement-outils",
+        "totalSteps": 3
+    }
 ]
